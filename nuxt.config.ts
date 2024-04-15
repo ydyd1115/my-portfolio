@@ -1,14 +1,11 @@
 const { API_KEY, API_URL } = process.env
 
 export default defineNuxtConfig({
-  build: {
-    outputDir: 'dist',
-  },
   devtools: { enabled: true },
   modules: ["nuxt-microcms-module"],
   microCMS: {
-    serviceDomain: process.env.MICROCMS_SERVICE_DOMAIN || 'yoshi1115',
-    apiKey: process.env.MICROCMS_API_KEY || 'defaultCqqddt0SVvs7tRqWJN34bAmcswhjd3IzPKiFApiKey',
+    serviceDomain: process.env.MICROCMS_SERVICE_DOMAIN,
+    apiKey: process.env.MICROCMS_API_KEY,
   },
   head: {
     title: "My Portfolio",
