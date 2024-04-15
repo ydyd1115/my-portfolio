@@ -4,8 +4,8 @@ export default defineNuxtConfig({
   devtools: { enabled: true },
   modules: ["nuxt-microcms-module"],
   microCMS: {
-    serviceDomain: process.env.MICROCMS_SERVICE_DOMAIN,
-    apiKey: process.env.MICROCMS_API_KEY,
+    serviceDomain: 'yoshi1115',
+    apiKey:'Cqqddt0SVvs7tRqWJN34bAmcswhjd3IzPKiF',
   },
   head: {
     title: "My Portfolio",
