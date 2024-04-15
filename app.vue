@@ -145,7 +145,7 @@ a:visited {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
-  height:100vh;
+  height:85vh;
 }
 
 .top-portfolio-list-modal-wrapper.modal-open {
