@@ -2,7 +2,7 @@ const { API_KEY, API_URL } = process.env
 
 export default defineNuxtConfig({
   build: {
-    outputDir: '/opt/build/repo/dist',
+    outputDir: 'dist',
   },
   devtools: { enabled: true },
   modules: ["nuxt-microcms-module"],
