@@ -238,6 +238,10 @@ a:visited {
       margin-top:24px;
     }
 
+    .top-portfolio-list-modal {
+      height:95vh;
+    }
+
     .for-sp{
       display:inline-block;
     }
