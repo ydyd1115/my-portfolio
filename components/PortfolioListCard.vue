@@ -58,7 +58,7 @@
 .portfolio-info{
     width:100%;
     overflow-wrap: break-word;
-
+    color: #494949;
 }
 .portfolio-info>h2{
     width:100%;

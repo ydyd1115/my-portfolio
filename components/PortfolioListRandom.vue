@@ -110,6 +110,10 @@ const startFadeOutAnimation = (newIds) => {
       flex-direction: column;
       height: 85vh;
   }
+
+  .portfolio-list-random-wrapper[data-v-e56e28f7] {
+    height: 90vh;
+  }
 }
 
 </style>
