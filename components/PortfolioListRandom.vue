@@ -111,7 +111,7 @@ const startFadeOutAnimation = (newIds) => {
       height: 85vh;
   }
 
-  .portfolio-list-random-wrapper[data-v-e56e28f7] {
+  .portfolio-list-random-wrapper {
     height: 90vh;
   }
 }
