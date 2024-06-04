@@ -3,11 +3,8 @@
 
   const { data } = await useMicroCMSGetList<Portfolio>({
     endpoint: "portfolio",
+    queries: { limit: 50 },
   });
-
-  onMounted(() => {
-  });
-
 
   useState<Map<number, Portfolio>>(
     "portfolioList",
